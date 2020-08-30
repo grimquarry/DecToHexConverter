@@ -3,7 +3,7 @@
     DecToHex.h
     Purpose: Header file for a class that converts decimal integers to a Hexidecimal string.
     @author Jeremiah Kellogg
-    @version 1.0.0 2020-06-14
+    @version 1.0.1 2020-08-30
 */
 #pragma once
 #include <string>  //Dynamically linked from Standard Library
