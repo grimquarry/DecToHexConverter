@@ -24,11 +24,7 @@ public:
 
 private:
   int divisor;
-	int dividend;
-	int quotient;
-	int remainder;
 	std::vector<char> hexDigits; //Container for storing individual digits of the hex value
-	std::string value; //The hex value to be returned.
   char hexTable[16] = {'0', '1', '2', '3', '4', '5', '6', '7', '8',
 											'9', 'a', 'b', 'c', 'd', 'e', 'f'};
 };

@@ -10,7 +10,6 @@
 DecToHex::DecToHex()
 {
   divisor = 16; //divisor set to 16 for hexidecimal values
-	remainder = 0;
 }
 
 DecToHex::~DecToHex() { }
@@ -18,7 +17,11 @@ DecToHex::~DecToHex() { }
 //Returns a Hexidecimal string when passed an integer.
 std::string DecToHex::ConvertToHex(int dec)
 {
-  dividend = dec;
+  std::string value;
+  int remainder = 0;
+  int dividend = dec;
+  int quotient;
+
   while(quotient != 0)
 	{
       quotient = dividend/divisor;
